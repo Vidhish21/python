@@ -1,0 +1,43 @@
+print("Hello world")
+#String methods 
+name = "Vidhi Sharma"
+#print(name.upper())
+#print(name.lower())
+#indexes start from 0
+#print(name.find('d'))
+#print(name.replace("Vidhi", "Saatvik"))
+#print(name)
+#print("Sharma" in name)
+#print('z' in name)
+#arithmetic operators
+print(5+2)
+print(5/2)
+print(5*2)
+print(5%2)
+print(5//2)
+print(5**2)
+i=5
+i+=2
+print(i)
+result = 2+3 *5
+print(result)
+#comaprison operators
+print
+print(3>2)
+print(3<2)
+print(3==2)
+print(3!=2)
+#logical operators
+print(2>3 or 2>1)
+print(2>3 and 2>1)
+print(not 2>3)
+#conditional statements
+age = 19
+if age >= 18:
+    print("You are an Adult")
+    print("You can vote")
+elif age < 18 and age>3:
+    print("You are in school")
+else:
+    print("you are a kid")
+#print("it will execute every time")
