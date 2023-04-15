@@ -1,0 +1,58 @@
+#list
+#marks = [96,67,78]
+#print(marks[1])
+#print(marks[0:2])
+#for score in marks:
+    #print(score)
+    #append operation
+#marks.append(77)
+#print(marks)
+#marks.insert(0,99)
+#print(marks)
+#print(99 in marks)
+#length
+#print(len(marks))
+#using while loop
+#i=0
+#while i<len(marks):
+    #print(marks[i])
+    #i=i+1
+#marks.clear()
+#print(marks)
+#break and continue
+students = ["ram", "shyam", "kishan", "radha", "radhika"]
+#for student in students:
+    #if student == "radha":
+       # break;
+    #print(student)
+#for student in students:
+   # if student == "kishan":
+       #continue;
+    #print(student)
+    #tuple
+#marks = (95,96,97,97)
+#print(marks.count(97))
+#print(marks.index(97))
+#set structure stores unique value, index does not exist,unordered
+#marks = {95,96,97,97,97}
+#print(marks)
+#for score in marks:
+   # print(score)
+   #dictionary key value pairs
+#marks = {"chemistry" : 95, "english" : 98}
+#print(marks["chemistry"])
+#marks["physics" : 88];
+#print(marks)
+#functions
+#import math
+#print(dir(math))
+#from math import *
+#print(sqrt(16))
+#user-defined fun
+#def print_sum(first, second):
+def print_sum(first, second=4):
+    print(first+second)
+    
+ #calling function   
+#print_sum(1, 2)
+print_sum(1)
